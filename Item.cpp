@@ -17,7 +17,7 @@ Item::Item(int itemC, float unitP)
 // 6. Implement Destructor (display "Destructor Called")
 Item::~Item()
 {
-  cout<<"Destructor runs"<<endl;
+  cout<<"Destructor called"<<endl;
 }
 
 void Item::setDiscount(float pdiscount) {
